@@ -1,7 +1,7 @@
-Django>=4.0,<4.2  # A specific version range to avoid conflicts
-djangorestframework>=3.14.0,<3.15.0
-selenium>=4.8.0,<5.0.0
-msedge-selenium-tools>=3.141.3
-gunicorn>=20.1.0
-asgiref>=3.6.0,<4.0.0
+Django>=4.0,<4.2  # Stable range to avoid conflicts
+djangorestframework>=3.14.0,<3.15.0  # Compatible with Django 4.x
+selenium==4.8.0  # Pin to a specific version to avoid conflicts
+msedge-selenium-tools==3.141.3  # Specific version for Edge browser
+gunicorn>=20.1.0  # For production server
+asgiref>=3.6.0,<4.0.0  # Compatible with Django 4.x
 sqlparse>=0.4.4
